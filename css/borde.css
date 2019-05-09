@@ -1,0 +1,34 @@
+.borde{
+    background-color: gray;
+    
+}
+.borde1{
+    background-color: rgb(68, 102, 131);
+    color: aliceblue;
+        
+}
+.borde2{
+    background-color: olivedrab;
+    text-align: center;
+       
+}
+.borde3{
+    background-color: orange;
+    text-align: center;
+      
+}
+.borde4{
+    background-color: darkslategrey;
+    color: white;
+}
+input{
+    background-color: darkslategrey;
+    padding: 25%;
+    margin: 5%;
+    color: white;
+    
+}
+button{
+    background-color: darkslategrey;
+    color: white;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <title>Portafolio - Juan Jose Cisneros</title>
+</head>
+<body>
+
+
+    <div class="container-fluid">
+        <!--------------- PRESENTACION ------------------->
+        <div class="row fluid">
+            <div class="col-3   fixed-top  h-100 text-justify " style="background-color: rgb(11, 107, 136); color: white;" >
+                <div class="col-6 mx-auto p-4">
+                    <img class="img-fluid  rounded-circle  img-responsive" src="img/perfil_smoll.png" >
+                </div>
+                <div class="p-2">
+                    <h4 class="display">Juan Jose Cisneros</h4> 
+                        <p class="small">
+                            Estudiante de Ingeniería de sistemas informaticos de la Universidad del Salvador, 
+                            actualmente desarrollador Junior en las areas WEB, aplicaciones moviles y aplicaciones 
+                            de escritorio.
+                        </p>
+                </div>
+                <!--NAVEGATION-->
+                <nav class="nabvar  navbar-expands-sm   navbar-dark">
+                    <a href="#" class="navabar-brand">contenido</a>
+                    
+                    <button class="navbar-toggler navbar-toggler-right rounded " type="button" data-toggle="collapse" data-target="#navegacion">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navegacion">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Sobre mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contacto</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    
+                </nav>
+            
+            </div>
+            
+        </div>
+        <!------------------ CONTENIDO --------------------->
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-9         p-4  mx-auto  text-justify " style="background-color:rgb(229, 226, 226);">
+            
+                <div class="card-deck">
+                    <!-- Carta contenido 3-->
+                    <div class="card" style="width:18rem;">
+                        <img class="card-img-top" src="img/proyect1.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Interfaz moderna</h5>
+                            <p class="card-text">
+                                Inerfaz dinamica programada en java, pensada para una 
+                                aplicacion de escritorio o un sistema administrativo
+                            </p>
+                            <a href="" data-toggle="modal" data-target="#modalUno" class="btn btn-primary btn-block">Ver</a>
+                        </div>
+                    </div>
+                    <!-- Carta contenido 4-->
+                    <div class="card" style="width:18rem;">
+                        <img class="card-img-top" src="img/wppr6.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Interfaz moderna</h5>
+                            <p class="card-text">
+                                Inerfaz dinamica programada en java, pensada para una 
+                                aplicacion de escritorio o un sistema administrativo
+                            </p>
+                            <a href="" data-toggle="modal" data-target="#modalUno" class="btn btn-primary btn-block">Ver</a>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Carta contenido 1-->
+                <div class="card        w-25 d-inline-block  m-4 " >
+                    <div class="card-header">
+                        <p>PROYECTO 1</p>
+                    </div>
+                    <img class="img-fluid rounded" src="img/proyect1.png">
+                
+                    <div class="card-body">
+                        <h4 class="card-title">Interfaz moderna</h4>
+                        <p class="small">Inerfaz dinamica programada en java, pensada para una 
+                            aplicacion de escritorio o un sistema administrativo.
+                        </p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalUno">Ver</a>
+                    </div>
+
+                    <div class="card-footer">
+                        Desarrollado por Juan Cisneros
+                    </div>
+                </div>        
+
+                <!-- Carta contenido 2-->
+                <div class="card w-25 d-inline-block m-4">
+                    <div class="card-header">
+                        <p>PROYECTO 2</p>
+                    </div>
+                    <img class="img-fluid rounded" src="img/wppr6.jpg">
+                
+                    <div class="card-body">
+                        <h4 class="card-title">Interfaz moderna</h4>
+                        <p class="small">Inerfaz dinamica programada en java, pensada para una 
+                            aplicacion de escritorio o un sistema administrativo
+                        </p>
+                        <a href="#" class="btn btn-primary">Ver</a>
+                    </div>
+
+                    <div class="card-footer">
+                        Desarrollado por Juan Cisneros
+                    </div>
+                </div>  
+                
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!---------------------      MODAL    -------------------->
+
+    <div class="modal fade" id="modalUno">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!--header-->
+                <div class="modal-header">
+                    <h4 class="modal-title">Interfaz moderna</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!--boody-->
+                <div class="modal-body">
+                    <img src="img/proyect1.png" class="img-fluid rounded">
+                    <p class="text-justify">Interfaz gráfica desarrolada en JAVA con botones interactivos pensada para un sistema administrativo</p>
+                </div>
+                <!--footer-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>  
+</body>
+</html>
+</html>
