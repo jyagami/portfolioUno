@@ -15,3 +15,9 @@ body{
      color: white;
      font-display: bold;
 }
+
+.custom-color-info{
+    background-color: rgb(11, 107, 136);
+     color: white;
+     
+}
