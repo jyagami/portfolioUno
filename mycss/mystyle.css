@@ -2,28 +2,30 @@
 .custom-list-a{
     background-color: rgb(11, 107, 136);
      border-color: rgb(11, 107, 136);
-     color: white;
-     font-display: bold;
+     color: whitesmoke;
+     
+     
 }
 
 body{
     
-    font-family: url('https://fonts.googleapis.com/css?family=Quicksand');
-}
-.custom-list-a{
-    background-color: rgb(11, 107, 136);
-     border-color: rgb(11, 107, 136);
-     color: white;
-     
+    font-family: 'Roboto', sans-serif;
 }
 
 .custom-color-info{
     background-color: rgb(11, 107, 136);
-     color: white;
+     color: whitesmoke;
      
 }
 
 .custom-bg{
     background-color: white;
      
+}
+
+.p-top{
+    padding-top: 10%;
+}
+.me{
+    font-family: 'Quicksand', sans-serif;
 }

@@ -8,6 +8,10 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <!--    CUSTOM CSS  -->
     <link rel="stylesheet" type="text/css" href="mycss/mystyle.css">
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    
     <title>Portafolio - Juan Jose Cisneros</title>
 </head>
 <body>
@@ -15,41 +19,40 @@
 
     <div class="container-fluid">
         <!--------------- PRESENTACION ------------------->
-        <div class="row fluid">
-            <div class="col-2   fixed-top border-right h-100 text-justify custom-color-info">
+        <div class="row ">
+            <div class="col-2   fixed-top  h-100 text-justify custom-color-info text-center p-top border-right" >
                 <div class="col-6 mx-auto p-1">
-                    <img class="img-fluid  rounded-circle  img-responsive" src="img/perfil_smoll.png" >
+                    <img class="img-fluid  rounded-circle border img-responsive justify-content-center" src="img/perfil_smoll.png" style="border-color: brown" >
                 </div>
                 
                 <!------ SIDEBAR -------->
 
-                <div class="wraperr">
+                <div class="wraperr pt-2">
 
                     <nav id="sidebar" class="">
                         <div class="sidebar-header">
                            
                         </div>
             
-                        <ul class="list-unstyled components">
-                            <p></p>
-                            <li class="active nav-item">
-                                <a class="list-group-item list-group-item-action    nav-link custom-list-a"  href="#">
+                        <ul class="list-unstyled components ">
+                            
+                            <li class=" nav-item">
+                                <a class="list-group-item list-group-item-action     nav-link custom-list-a"  href="#">
                                     SOBRE MÍ
                                 </a>    
                             </li>
-            
                             <li>
-                                <a class="list-group-item list-group-item-action custom-list-a" href="#">
+                                <a class="list-group-item list-group-item-action custom-list-a" href="#portfolio">
                                    PORTAFOLIO
                                 </a>  
                             </li>
                             <li>
-                                <a class="list-group-item list-group-item-action custom-list-a"  href="#">
+                                <a class="list-group-item list-group-item-action custom-list-a  js-scroll-trigger"  href="#skils">
                                     HABILIDADES
                                 </a>  
                             </li>
                             <li>
-                                <a class="list-group-item list-group-item-action custom-list-a"  href="#">
+                                <a class="list-group-item list-group-item-action custom-list-a"  href="#contact">
                                     CONTACTO                                        
                                 </a>  
                             </li>
@@ -73,7 +76,7 @@
             </div>
             
             <header class="custom-color-info col-10 p-5 text-white text-justify">
-                <h1 class="display-4 p-4">JUAN JOSÉ CISNEROS</h1>
+                <h1 class="display-4 p-4 me">JUAN JOSE CISNEROS</h1>
                 <p class="p-4">
                     Estudiante de Ingeniería de sistemas informaticos de la Universidad del Salvador, 
                     actualmente desarrollador Junior en las areas WEB, aplicaciones moviles y aplicaciones 
@@ -88,16 +91,16 @@
         <!----  Seccion Portfolio   ----->
         <div class="row">
             <div class="col-2"></div>
-            <div class="col-10        p-5  mx-auto  text-justify " style="background-color:rgb(229, 226, 226);">
+            <section class="col-10        pl-5 pr-5 pb-5 pt-4 mx-auto  text-justify " style="background-color:rgb(229, 226, 226);" id="portfolio">
                 
-                <h1 class="p-5 text-center">- PORTAFOLIO -</h1>
+                <h1 class="p-4 text-center"> PORTAFOLIO </h1>
                 
                 <div class="card-deck">
                     <!-- Tarjetas contenido 1-->
                     <div class="card" style="width:18rem;">
                         <img class="card-img-top" src="img/proyect1.png" alt="">
                         <div class="card-body">
-                            <h5 class="card-title">Interfaz moderna</h5>
+                            <h5 class="card-title text-center">Interfaz moderna</h5>
                             <p class="card-text">
                                 Inerfaz dinamica programada en java, pensada para una 
                                 aplicacion de escritorio o un sistema administrativo
@@ -113,7 +116,7 @@
                     <div class="card" style="width:18rem;">
                         <img class="card-img-top" src="img/proyec2.png" alt="">
                         <div class="card-body">
-                            <h5 class="card-title">Portfolio simple</h5>
+                            <h5 class="card-title text-center">Portfolio simple</h5>
                             <p class="card-text">
                                 Portfolio simple creado unicamente con HTML5 y CSS3 
                             </p>
@@ -128,7 +131,7 @@
                     <div class="card" style="width:18rem;">
                         <img class="card-img-top" src="img/register_user.png" alt="">
                         <div class="card-body">
-                            <h5 class="card-title">Interfaz amigable</h5>
+                            <h5 class="card-title text-center">Interfaz amigable</h5>
                             <p class="card-text">
                                 Interfaz profesional hecha con BootStrap, html y css, login y registro
                                 de usuario
@@ -143,7 +146,7 @@
                     </div>
                 </div>
 
-            </div>
+            </section>
 
         </div>
 
@@ -151,56 +154,57 @@
         <div class="row">
             <div class="col-2"></div>
 
-            <div class="col-md-10 custom-bg p-5  list-inline">
-                <h1 class="p-5">LENGUAJES DE PROGRAMACION</h1>
+            <section class="col-md-10 custom-bg p-4  list-inline" id="skils">
+                <h1 class="text-center p-4">HABILIDADES</h1>
+                <h4 class="p-2 text-muted">LENGUAJES DE PROGRAMACION</h4>
                 <ul class="list-inline">
 
                     <li class="list-inline-item">
                         <div class="col" >
-                            <img src="img/HTML5_logo.svg" class="" style="width: 80px; height: 80px;">
+                            <img src="img/HTML5_logo.svg" class="" style="width: 70px; height: 80px;">
                         </div>
                     </li>
 
                     <li class="list-inline-item">
                         <div class="col" >
-                            <img src="img/CSS.3.svg" class="" style="width: 80px; height: 80px;">
+                            <img src="img/CSS.3.svg" class="" style="width: 70px; height: 80px;">
                         </div>
                     </li>
 
                     <li class="list-inline-item">
                         <div class="col" >
-                            <img src="img/bootstrap-solid.svg" class="" style="width: 80px; height: 80px;">
+                            <img src="img/bootstrap-solid.svg" class="" style="width: 70px; height: 80px;">
                         </div>
                     </li>
 
                     <li class="list-inline-item">
                         <div class="col" >
-                            <img src="img/js_logo.svg" class="" style="width: 80px; height: 80px;">
+                            <img src="img/js_logo.svg" class="" style="width: 70px; height: 80px;">
                         </div>
                     </li>
 
                     <li class="list-inline-item">
                         <div class="col" >
-                            <img src="img/angular_logo.svg" class="" style="width: 80px; height: 80px;">
+                            <img src="img/angular_logo.svg" class="" style="width: 70px; height: 80px;">
                         </div>
                     </li>
                         
                     <li class="list-inline-item">
                         <div class="col" >
-                            <img src="img/PHP-logo.svg" class="" style="width: 80px; height: 80px;">
+                            <img src="img/PHP-logo.svg" class="" style="width: 70px; height: 80px;">
                         </div>
                     </li>
                         
                     <li class="list-inline-item">
                         <div class="col" >
-                            <img src="img/java_logo.svg" class="" style="width: 80px; height: 80px;">
+                            <img src="img/java_logo.svg" class="" style="width: 70px; height: 80px;">
                         </div>
                     </li>
                 
                 </ul>
 
-                <h4 class="p-4">FLUJO DE TRABAJO</h4>
-                <ul class="list-group list-group list-group-flush">
+                <h4 class="p-4 text-muted">FLUJO DE TRABAJO</h4>
+                <ul class="list-group list-group list-group-flush text-muted">
                     <li class="list-group-item ">
                         <p> Desarrollo web responsivo</p>
                     </li>
@@ -216,7 +220,7 @@
                     
                 </ul>
                 
-            </div>
+            </section>
         </div>
 
 
@@ -228,14 +232,27 @@
     <div class="row">
         <div class="col-2"></div>
 
-        <div class="col-md-10 custom-color-info p-4">
-                <h1 class="p-5 text-center">- CONTACTO -</h1>
+        <footer class="col-md-10 custom-color-info p-4 text-center" id="contact">
+                <h1 class="p-5 text-center"> CONTACTO </h1>
+                <p class="large">3542 RES CALIFORNIA · AVENIDA 4  SAN MIGUELS, CO 80810 · (503) 585-8468</p>
+                <a href="#contact" class="text-white">anju.jjc@hotmail.com</a>
 
-        </div>
-
+                <ul class="p-4 list-inline">
+                    <li class=" list-inline-item">
+                        <a href="https://facebook.com" target="_blank"><img src="img/fb_icon-md.png"></a>
+                    </li>
+                    <li class=" list-inline-item">
+                        <a href="https://github.com/" target="_blank"><img src="img/gh-Icon-md.png" alt=""></a>
+                    </li>
+                    <li class=" list-inline-item">
+                        <a href="https://aboutme.google.com/u/1/?referer=gplus&pageId=none" target="_blank">
+                            <img src="img/gp_icon_md.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+        </footer>
+    
     </div>
-
-
 
     <!---------------------      MODAL    -------------------->
 
@@ -268,7 +285,7 @@
     
                     <!--header-->
                     <div class="modal-header">
-                        <h4 class="modal-title">Portafolio simple</h4>
+                        <h4 class="modal-title">Interfaz amigable</h4>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
                     <!--boody-->
