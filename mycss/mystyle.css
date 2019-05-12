@@ -1,8 +1,10 @@
 
 .custom-list-a{
     background-color: rgb(11, 107, 136);
-     border-color: rgb(11, 107, 136);
-     color: whitesmoke;
+    border-color: rgb(11, 107, 136);
+    
+    
+    color: whitesmoke;
      
      
 }
@@ -27,23 +29,4 @@ body{
 }
 .me{
     font-family: 'Quicksand', sans-serif;
-}
-/*------animacion items navbar-------*/
-
-div.topBotomBordersOut a:before
-{
-    top: 0px;
-    transform: translateY(10px);
-}
-
-div.topBotomBordersOut a:after
-{
-    bottom: 0px;
-    transform: translateY(-10px);
-}
-
-div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
-{
-    opacity: 1;
-    transform: translateY(0px);
 }
