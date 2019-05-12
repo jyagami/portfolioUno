@@ -19,8 +19,7 @@ body{
 }
 
 .custom-bg{
-    background-color: white;
-     
+    background-color:rgb(245, 241, 241); 
 }
 
 .p-top{
@@ -28,4 +27,23 @@ body{
 }
 .me{
     font-family: 'Quicksand', sans-serif;
+}
+/*------animacion items navbar-------*/
+
+div.topBotomBordersOut a:before
+{
+    top: 0px;
+    transform: translateY(10px);
+}
+
+div.topBotomBordersOut a:after
+{
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
 }

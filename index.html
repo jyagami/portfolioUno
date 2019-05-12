@@ -17,7 +17,7 @@
 <body>
 
 
-    <div class="container-fluid">
+    <div class="container-fluid ">
         <!--------------- PRESENTACION ------------------->
         <div class="row ">
             <div class="col-2   fixed-top  h-100 text-justify custom-color-info text-center p-top border-right" >
@@ -27,9 +27,9 @@
                 
                 <!------ SIDEBAR -------->
 
-                <div class="wraperr pt-2">
+                <div class="wraperr pt-2 ">
 
-                    <nav id="sidebar" class="">
+                    <nav id="sidebar" class="container topBotomBordersOut">
                         <div class="sidebar-header">
                            
                         </div>
@@ -37,12 +37,12 @@
                         <ul class="list-unstyled components ">
                             
                             <li class=" nav-item">
-                                <a class="list-group-item list-group-item-action     nav-link custom-list-a"  href="#">
+                                <a class="list-group-item list-group-item-action js-scroll-trigger    nav-link custom-list-a"  href="#">
                                     SOBRE MÍ
                                 </a>    
                             </li>
                             <li>
-                                <a class="list-group-item list-group-item-action custom-list-a" href="#portfolio">
+                                <a class="list-group-item list-group-item-action js-scroll-trigger    custom-list-a" href="#portfolio">
                                    PORTAFOLIO
                                 </a>  
                             </li>
@@ -91,7 +91,7 @@
         <!----  Seccion Portfolio   ----->
         <div class="row">
             <div class="col-2"></div>
-            <section class="col-10        pl-5 pr-5 pb-5 pt-4 mx-auto  text-justify " style="background-color:rgb(229, 226, 226);" id="portfolio">
+            <section class="col-10        pl-5 pr-5 pb-5 pt-4 mx-auto  text-justify custom-bg"  id="portfolio">
                 
                 <h1 class="p-4 text-center"> PORTAFOLIO </h1>
                 
@@ -151,75 +151,72 @@
         </div>
 
         <!-----     Seccion Habilidades     ------>
-        <div class="row">
+        <div class="row ">
+            
             <div class="col-2"></div>
 
-            <section class="col-md-10 custom-bg p-4  list-inline" id="skils">
+            <section class="col-md-10 custom-bg  text-center " id="skils" ><hr>
                 <h1 class="text-center p-4">HABILIDADES</h1>
                 <h4 class="p-2 text-muted">LENGUAJES DE PROGRAMACION</h4>
                 <ul class="list-inline">
 
                     <li class="list-inline-item">
-                        <div class="col" >
                             <img src="img/HTML5_logo.svg" class="" style="width: 70px; height: 80px;">
-                        </div>
+                        
                     </li>
 
                     <li class="list-inline-item">
-                        <div class="col" >
                             <img src="img/CSS.3.svg" class="" style="width: 70px; height: 80px;">
-                        </div>
                     </li>
 
                     <li class="list-inline-item">
-                        <div class="col" >
                             <img src="img/bootstrap-solid.svg" class="" style="width: 70px; height: 80px;">
-                        </div>
                     </li>
 
                     <li class="list-inline-item">
-                        <div class="col" >
                             <img src="img/js_logo.svg" class="" style="width: 70px; height: 80px;">
-                        </div>
                     </li>
 
                     <li class="list-inline-item">
-                        <div class="col" >
                             <img src="img/angular_logo.svg" class="" style="width: 70px; height: 80px;">
-                        </div>
                     </li>
                         
                     <li class="list-inline-item">
-                        <div class="col" >
+                        
                             <img src="img/PHP-logo.svg" class="" style="width: 70px; height: 80px;">
-                        </div>
+                       
                     </li>
                         
                     <li class="list-inline-item">
-                        <div class="col" >
+                        
                             <img src="img/java_logo.svg" class="" style="width: 70px; height: 80px;">
-                        </div>
+                        
                     </li>
                 
                 </ul>
+                <div class="row justify-content-center">
 
-                <h4 class="p-4 text-muted">FLUJO DE TRABAJO</h4>
-                <ul class="list-group list-group list-group-flush text-muted">
-                    <li class="list-group-item ">
-                        <p> Desarrollo web responsivo</p>
-                    </li>
-                    <li class="list-group-item">
-                        <p> Modelo vista controlador</p>
-                    </li>
-                    <li class="list-group-item">
-                        <p>Backend php + larabel</p>
-                    </li>
-                    <li class="list-group-item">
-                        <p>Frontend Angular, bootstrap, etc</p>
-                    </li>
-                    
-                </ul>
-                
+                    <div class="col-md-6 ">
+                        
+                        <h4 class="p-4 text-muted">FLUJO DE TRABAJO</h4>
+                        <ul class="list-group list-group list-group-flush text-muted ">
+                            <li class="list-group-item custom-bg">
+                                <p> Desarrollo web responsivo</p>
+                            </li>
+                            <li class="list-group-item custom-bg">
+                                <p> Modelo vista controlador</p>
+                            </li>
+                            <li class="list-group-item custom-bg">
+                                <p>Backend php + larabel</p>
+                            </li>
+                            <li class="list-group-item custom-bg">
+                                <p>Frontend Angular, bootstrap, etc</p>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+  
             </section>
         </div>
 
@@ -234,8 +231,11 @@
 
         <footer class="col-md-10 custom-color-info p-4 text-center" id="contact">
                 <h1 class="p-5 text-center"> CONTACTO </h1>
-                <p class="large">3542 RES CALIFORNIA · AVENIDA 4  SAN MIGUELS, CO 80810 · (503) 585-8468</p>
-                <a href="#contact" class="text-white">anju.jjc@hotmail.com</a>
+                <p class="large">3542 RES CALIFORNIA · AVENIDA 4  SAN MIGUELS, CO 80810 </p>
+                <p>(503) 585-8468 · 
+                    <a href="#contact" class="text-white">anju.jjc@hotmail.com</a>
+                </p>
+                
 
                 <ul class="p-4 list-inline">
                     <li class=" list-inline-item">
