@@ -1,0 +1,32 @@
+
+.custom-list-a{
+    background-color: rgb(11, 107, 136);
+    border-color: rgb(11, 107, 136);
+    
+    
+    color: whitesmoke;
+     
+     
+}
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-color-info{
+    background-color: rgb(11, 107, 136);
+     color: whitesmoke;
+     
+}
+
+.custom-bg{
+    background-color:rgb(245, 241, 241); 
+}
+
+.p-top{
+    padding-top: 10%;
+}
+.me{
+    font-family: 'Quicksand', sans-serif;
+}

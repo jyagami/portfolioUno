@@ -4,91 +4,256 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--    CSS BOOTSTRAP   -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!--    CUSTOM CSS  -->
+    <link rel="stylesheet" type="text/css" href="mycss/mystyle.css">
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    
     <title>Portafolio - Juan Jose Cisneros</title>
 </head>
 <body>
 
 
-    <div class="container-fluid">
+    <div class="container-fluid ">
         <!--------------- PRESENTACION ------------------->
-        <div class="row fluid">
-            <div class="col-3   fixed-top  h-100 text-justify " style="background-color: rgb(11, 107, 136); color: white;" >
-                <div class="col-6 mx-auto p-4">
-                    <img class="img-fluid  rounded-circle  img-responsive" src="img/perfil_smoll.png" >
+        <div class="row ">
+            <div class="col-2   fixed-top  h-100 text-justify custom-color-info text-center p-top border-right" >
+                <div class="col-6 mx-auto p-1">
+                    <img class="img-fluid  rounded-circle border img-responsive justify-content-center" src="img/perfil_smoll.png" style="border-color: brown" >
                 </div>
-                <div class="p-2">
-                    <h4 class="display">Juan Jose Cisneros</h4> 
-                        <p class="small">
-                            Estudiante de Ingeniería de sistemas informaticos de la Universidad del Salvador, 
-                            actualmente desarrollador Junior en las areas WEB, aplicaciones moviles y aplicaciones 
-                            de escritorio.
-                        </p>
-                </div>
-                <!--NAVEGATION-->
-                <nav class="nabvar  navbar-expands-sm   navbar-dark">
-                    <a href="#" class="navabar-brand">contenido</a>
-                    
-                    <button class="navbar-toggler navbar-toggler-right rounded " type="button" data-toggle="collapse" data-target="#navegacion">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                
+                <!------ SIDEBAR -------->
 
-                    <div class="collapse navbar-collapse" id="navegacion">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Sobre mi</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Contacto</a>
-                            </li>
-                        </ul>
+                <div class="wraperr pt-2 ">
 
-                    </div>
-                    
-                </nav>
+                    <nav id="sidebar" class="container">
+                        <div class="sidebar-header">
+                           
+                        </div>
             
+                        <ul class="list-unstyled components ">
+                            
+                            <li class=" nav-item">
+                                <a class="list-group-item list-group-item-action nav-link list-group-item-info custom-list-a"  href="#">
+                                    SOBRE MÍ
+                                </a>    
+                            </li>
+                            <li class=" nav-item">
+                                <a class="list-group-item list-group-item-action nav-link list-group-item-primary  custom-list-a" href="#portfolio">
+                                   PORTAFOLIO<span class="badge badge-primary badge-pill">3</span>
+                                </a>  
+                            </li>
+                            <li class=" nav-item">
+                                <a class="list-group-item list-group-item-action list-group-item-info custom-list-a"  href="#skils">
+                                    HABILIDADES
+                                </a>  
+                            </li>
+                            <li class=" nav-item">
+                                <a class="list-group-item list-group-item-action list-group-item-primary custom-list-a"  href="#contact">
+                                    CONTACTO                                        
+                                </a>  
+                            </li>
+                            
+                        </ul>
+            
+                        </nav>
+            
+                 </div>
+
+                <!-- END SIDEBAR --->
+
             </div>
             
         </div>
-        <!------------------ CONTENIDO --------------------->
+
+        <!-----------------    HEADER   ---------------------------->
+        
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-9         p-4  mx-auto  text-justify " style="background-color:rgb(229, 226, 226);">
+            <div class="col-2">
+            </div>
             
+            <header class="custom-color-info col-10 p-5 text-white text-justify">
+                <h1 class="display-4 p-4 me">JUAN JOSE CISNEROS</h1>
+                <p class="p-4 lead">
+                    Estudiante de Ingeniería de sistemas informaticos de la Universidad del Salvador, 
+                    actualmente desarrollador Junior en las areas WEB, aplicaciones moviles y aplicaciones 
+                    de escritorio.
+                </p>
+            </header>
+        </div>
+
+
+        <!------------------ CONTENIDO --------------------->
+        
+        <!----  Seccion Portfolio   ----->
+        <div class="row">
+            <div class="col-2"></div>
+            <section class="col-10        pl-5 pr-5 pb-5 pt-4 mx-auto  text-justify custom-bg"  id="portfolio">
+                
+                <h1 class="p-4 text-center"> PORTAFOLIO </h1>
+                
                 <div class="card-deck">
-                    <!-- Carta contenido 1-->
+                    <!-- Tarjetas contenido 1-->
                     <div class="card" style="width:18rem;">
                         <img class="card-img-top" src="img/proyect1.png" alt="">
                         <div class="card-body">
-                            <h5 class="card-title">Interfaz moderna</h5>
+                            <h5 class="card-title text-center">Interfaz moderna</h5>
                             <p class="card-text">
                                 Inerfaz dinamica programada en java, pensada para una 
                                 aplicacion de escritorio o un sistema administrativo
                             </p>
                             <a href="" data-toggle="modal" data-target="#modalUno" class="btn btn-primary btn-block">Ver</a>
                         </div>
+                        
+                        <div class="card-footer text-center">
+                            <span class="badge badge-pill badge-secondary small">java</span>
+                        </div>
                     </div>
-                    <!-- Carta contenido 1-->
+                    <!-- Tarjetas contenido 2-->
                     <div class="card" style="width:18rem;">
-                        <img class="card-img-top" src="img/wppr6.jpg" alt="">
+                        <img class="card-img-top" src="img/proyec2.png" alt="">
                         <div class="card-body">
-                            <h5 class="card-title">Interfaz moderna</h5>
+                            <h5 class="card-title text-center">Portfolio simple</h5>
                             <p class="card-text">
-                                Inerfaz dinamica programada en java, pensada para una 
-                                aplicacion de escritorio o un sistema administrativo
+                                Portfolio simple no responsivo creado unicamente con HTML5 y CSS3 con colores agradables
                             </p>
-                            <a href="" data-toggle="modal" data-target="#modalUno" class="btn btn-primary btn-block">Ver</a>
+                            <a href="" data-toggle="modal" data-target="#modalDos" class="btn btn-primary btn-block">Ver</a>
+                        </div>
+                        <div class="card-footer text-center">
+                            <span class="badge badge-pill badge-danger small">html</span>
+                            <span class="badge badge-pill badge-primary small">css</span>
+                        </div>
+                    </div>
+                    <!-- Tarjetas contenido 3-->
+                    <div class="card" style="width:18rem;">
+                        <img class="card-img-top" src="img/register_user.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Interfaz amigable</h5>
+                            <p class="card-text">
+                                Interfaz profesional hecha con BootStrap, html y css, login y registro
+                                de usuario
+                            </p>
+                            <a href="" data-toggle="modal" data-target="#modalTres" class="btn btn-primary btn-block">Ver</a>
+                        </div>
+                        <div class="card-footer text-center">
+                            <span class="badge badge-pill badge-danger small">html</span>
+                            <span class="badge badge-pill badge-primary small">css</span>
+                            <span class="badge badge-pill badge-info small">bootstrap</span>
                         </div>
                     </div>
                 </div>
 
-            </div>
+            </section>
 
+        </div>
+
+        <!-----     Seccion Habilidades     ------>
+        <div class="row ">
+            
+            <div class="col-2"></div>
+
+            <section class="col-md-10 custom-bg  text-center pb-2" id="skils" >
+                <hr class="my-2">
+                <h1 class="text-center p-4">HABILIDADES</h1>
+                <h4 class="p-2 text-muted">LENGUAJES DE PROGRAMACION</h4>
+                <ul class="list-inline">
+
+                    <li class="list-inline-item">
+                            <img src="img/HTML5_logo.svg" class="" style="width: 70px; height: 80px;">
+                        
+                    </li>
+
+                    <li class="list-inline-item">
+                            <img src="img/CSS.3.svg" class="" style="width: 70px; height: 80px;">
+                    </li>
+
+                    <li class="list-inline-item">
+                            <img src="img/bootstrap-solid.svg" class="" style="width: 70px; height: 80px;">
+                    </li>
+
+                    <li class="list-inline-item">
+                            <img src="img/js_logo.svg" class="" style="width: 70px; height: 80px;">
+                    </li>
+
+                    <li class="list-inline-item">
+                            <img src="img/angular_logo.svg" class="" style="width: 70px; height: 80px;">
+                    </li>
+                        
+                    <li class="list-inline-item">
+                        
+                            <img src="img/PHP-logo.svg" class="" style="width: 70px; height: 80px;">
+                       
+                    </li>
+                        
+                    <li class="list-inline-item">
+                        
+                            <img src="img/java_logo.svg" class="" style="width: 70px; height: 80px;">
+                        
+                    </li>
+                
+                </ul>
+                <div class="row justify-content-center">
+
+                    <div class="col-md-6 ">
+                        
+                        <h4 class="p-4 text-muted">FLUJO DE TRABAJO</h4>
+                        <ul class="list-group list-group list-group-flush text-muted ">
+                            <li class="list-group-item custom-bg">
+                                <p> Desarrollo web responsivo</p>
+                            </li>
+                            <li class="list-group-item custom-bg">
+                                <p> Modelo vista controlador</p>
+                            </li>
+                            <li class="list-group-item custom-bg">
+                                <p>Backend php + larabel</p>
+                            </li>
+                            <li class="list-group-item custom-bg">
+                                <p>Frontend Angular, bootstrap, etc</p>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+  
+            </section>
         </div>
 
 
     </div>
 
+
+    <!----------    FOOTER   contact   ----------------->
+    
+    <div class="row">
+        <div class="col-2"></div>
+
+        <footer class="col-md-10 custom-color-info p-4 text-center" id="contact">
+                <h1 class="p-5 text-center"> CONTACTO </h1>
+                <p class="large">3542 RES CALIFORNIA · AVENIDA 4  SAN MIGUELS, CO 80810 </p>
+                <p>(503) 585-8468 · 
+                    <a href="#contact" class="text-white">anju.jjc@hotmail.com</a>
+                </p>
+                
+
+                <ul class="p-4 list-inline">
+                    <li class=" list-inline-item">
+                        <a href="https://facebook.com" target="_blank"><img src="img/fb_icon-md.png"></a>
+                    </li>
+                    <li class=" list-inline-item">
+                        <a href="https://github.com/" target="_blank"><img src="img/gh-Icon-md.png" alt=""></a>
+                    </li>
+                    <li class=" list-inline-item">
+                        <a href="https://aboutme.google.com/u/1/?referer=gplus&pageId=none" target="_blank">
+                            <img src="img/gp_icon_md.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+        </footer>
+    
+    </div>
 
     <!---------------------      MODAL    -------------------->
 
@@ -113,6 +278,71 @@
 
             </div>
         </div>
+    </div>
+
+    <div class="modal fade" id="modalTres">
+            <div class="modal-dialog">
+                <div class="modal-content">
+    
+                    <!--header-->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Interfaz amigable</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!--boody-->
+                    
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+
+                           
+                            <!------  IMAGENES  ------->
+                            <div class="carousel-inner">
+        
+                                <div class="carousel-item active">
+                                        <img src="img/login_user.png" class="img-fluid">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/register_user.png" class="img-fluid">
+                                    
+                                </div>        
+                            </div>
+        
+        
+                            <!------  CONTROLES  ------->
+                            <a href="#demo" class="carousel-control-prev" data-slide="prev"> <span class="carousel-control-prev-icon"></span></a>
+                            <a href="#demo" class="carousel-control-next" data-slide="next"> <span class="carousel-control-next-icon"></span></a>
+                    </div>
+
+                    <!--footer-->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="modal fade" id="modalDos">
+            <div class="modal-dialog">
+                <div class="modal-content">
+    
+                    <!--header-->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Portafolio amigable</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!--boody-->
+                    <div class="modal-body">
+                        <img src="img/proyec2.png" class="img-fluid rounded">
+                        <p class="text-justify">Portfolio creado unicamente con HTML5 y CSS3 </p>
+                    </div>
+                    <!--footer-->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
     </div>
 
 
